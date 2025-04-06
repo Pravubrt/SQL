@@ -1,0 +1,20 @@
+You are working with a large dataset of out-of-stock (OOS) events for products across multiple marketplaces.Each record in the dataset represents an OOS event for a specific product (MASTER_ID) in a specific marketplace (MARKETPLACE_ID) on a specific date (OOS_DATE). The combination of (MASTER_ID, MARKETPLACE_ID, OOS_DATE) is always unique. Your task is to identify key OOS event dates for each product and marketplace combination.
+
+ 
+
+Steps to identify key OOS events :
+Identify the earliest OOS event for each (MASTER_ID, MARKETPLACE_ID).
+Recursively find the next OOS event that occurs at least 7 days after the previous event.
+Continue this process until no more OOS events meet the condition.
+
+ 
+
+Table: DETAILED_OOS_EVENTS
++---------------+----------+
+| COLUMN_NAME   | DATA_TYPE|
++---------------+----------+
+| MASTER_ID     | VARCHAR  |
+| MARKETPLACE_ID| INTEGER  | 
+| OOS_DATE      | DATE     | 
++---------------+----------+
+Order the result by MASTER_ID, MARKETPLACE_ID, OOS_DATE
