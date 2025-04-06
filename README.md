@@ -11,12 +11,6 @@
 
 - [Datasets used](#datasets-used)
 
-- [Entity Relationship Diagram](#entity-relationship-diagram)
-
-- [Case Study Questions + Bonus Questions](#case-study-questions)
-
-- [Relevant Links](#relevant-links)
-
 ## Introduction
 
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
@@ -38,9 +32,8 @@ Three key datasets for this case study are :
 
 - `members`: The members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
 
-## Entity Relationship Diagram
 
-![image](https://github.com/faizanxmulla/sql-portfolio/assets/71728480/df17bd9b-c1c7-40ad-80f5-c4c4a3cac58e)
+
 
 ## Case Study Questions
 
@@ -76,6 +69,6 @@ If you would like to contribute to the project, please `fork` the repository and
 
 ## Support
 
-If you have any doubts, queries or, suggestions then, please connect with me on [LinkedIn](https://www.linkedin.com/in/faizanxmulla/).
+If you have any doubts, queries or, suggestions then, please connect with me on [LinkedIn](https://www.linkedin.com/in/pravuchaudhary/).
 
 Do ⭐ the repository, if it inspired you, gave you ideas of your own or helped you in any way !!
